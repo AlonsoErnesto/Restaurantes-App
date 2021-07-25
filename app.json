@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "RestaurantsApp",
+    "slug": "restaurantsapp",
+     "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    
+    "splash": {
+    
+      "image": "./assets/splash3.png",
+      
+      "resizeMode": "cover",
+
+
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config":{
+          "googleMaps":{
+            
+            "apiKey":"AIzaSyDqcWgdFq63bQEMePE1333k-jIq5XxGLpw"
+          }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "READ_INTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+
+        
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ernestoalonso2021.restaurantsapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Primer actualizacion de la app version 1.0"
+  }
+}
